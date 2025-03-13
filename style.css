@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilos de los formularios */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"] {
+    font-size: 16px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del login */
+#login {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Estilo del dashboard */
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-link:hover {
+    background-color: #218838;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
